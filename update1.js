@@ -5,10 +5,3 @@ document.addEventListener("DOMContentLoaded", function() {
     banner.innerHTML = "<h2>Updated Announcement!</h2><p>This text came from GitHub.</p>";
   }
 });
- // Second const (new element)
-document.addEventListener("DOMContentLoaded", function() {
-  const footerNote = document.getElementById("live-footer");
-  if (footerNote) {
-    footerNote.innerHTML = "<p>Last updated via GitHub.</p>";
-  }
-});

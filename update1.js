@@ -5,4 +5,3 @@ document.addEventListener("DOMContentLoaded", function() {
     banner.innerHTML = "<h2>Updated Announcement!</h2><p>This text came from GitHub.</p>";
   }
 });
- 

@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
  // Second const (new element)
+document.addEventListener("DOMContentLoaded", function() {
   const footerNote = document.getElementById("live-footer");
   if (footerNote) {
     footerNote.innerHTML = "<p>Last updated via GitHub.</p>";

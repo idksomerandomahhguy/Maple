@@ -8,3 +8,4 @@ if (LOCKED) {
     banner.innerHTML = "<h2>Updated Announcement!</h2><p>Welcome to Maple!</p>";
   }
 }
+ 

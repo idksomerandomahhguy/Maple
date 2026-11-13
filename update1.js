@@ -5,3 +5,6 @@ if (banner) {
     <p>This text came from GitHub.</p>
   `;
 }
+if (LOCKED) {
+  document.body.innerHTML = "<h1 style='margin-top: 20%;'>Maple is currently locked.</h1>";
+} else {

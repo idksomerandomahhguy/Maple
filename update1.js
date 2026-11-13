@@ -1,4 +1,4 @@
-const LOCKED = false; // Change to true to lock everyone out!
+const LOCKED = true; // Change to true to lock everyone out!
 
 if (LOCKED) {
   document.body.innerHTML = "<h1 style='margin-top: 20%;'>Maple is currently locked.</h1>";
